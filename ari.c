@@ -5,12 +5,13 @@ string ari(string s)
   int nw=0,nc=0,ns=0,i; string a;
   for(i=0;s[i]!='\0';i++)
   {
-   if(s[i]==' ') 
+    if(isalnum(s[i]))
+      nc++;
+    else if(s[i]==' ') 
       nw++;
    if(s[i]=='.'||s[i]=='?'||s[i]=='!')
       ns++;
    }
-   nc=i-nw;
    float sc=(4.71*nc/nw)+(0.5*nw/ns)-21.43;
    nw=(int)sc;
    if((sc-nw)!=0)
