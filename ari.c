@@ -1,3 +1,5 @@
+#include<cs50.h>
+
 string ari(string a)
 {
   int nw=0,nc=0,ns=0,i;
