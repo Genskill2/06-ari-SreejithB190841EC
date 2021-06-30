@@ -1,6 +1,6 @@
 #include<cs50.h>
 
-string ari(string a)
+string ari(string s)
 {
   int nw=0,nc=0,ns=0,i;
   for(i=0;s[i]!='\0';i++)
