@@ -2,7 +2,7 @@
 
 string ari(string s)
 {
-  int nw=0,nc=0,ns=0,i;
+  int nw=0,nc=0,ns=0,i; string a;
   for(i=0;s[i]!='\0';i++)
   {
    if(s[i]==' ') 
